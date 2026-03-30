@@ -7,7 +7,7 @@ Monitor real-time GPU performance and resource usage.
 
 nvidia-smi dmon
 
-##Output
+## Output
 
 ```text
 root@ubuntu:~# nvidia-smi dmon
