@@ -39,4 +39,13 @@ root@ubuntu:~# nvidia-smi dmon
     0     31     38      -      0      0      0      0      0      0    405    210
 ^C    0     31     38      -      0      0      0      0      0      0    405    210
 ```
+## Observations
+- Power usage is stable at ~31W under idle conditions
+- GPU temperature remains consistent at ~38C
+- GPU utilization is 0%, indicating no active workload
+- Memory and processor clocks (mclk/pclk) are low, reflecting an idle power state
 
+
+## Interpretation
+The GPU is operating in a stable idle state.  
+Low power usage, consistent temperature, and reduced clock speeds indicate that no workload is running and the system is conserving energy efficiently.
