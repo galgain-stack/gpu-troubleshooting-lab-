@@ -4,7 +4,7 @@
 Monitor real-time GPU performance and resource usage.
 
 ## Commands Used
-```bash
+
 nvidia-smi dmon
 
 ##Output
